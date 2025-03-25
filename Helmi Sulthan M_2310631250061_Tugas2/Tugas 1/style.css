@@ -1,0 +1,29 @@
+*{
+    font-family: "Poppins", serif;
+    padding: 5px;
+}
+
+.center{
+    text-align: center;
+
+}
+
+.inputan{
+    width: 750px;
+    height: 50px;
+}
+
+form{
+    margin-inline: 375px;
+}
+#tambah{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+input{
+    padding: 5px;
+}

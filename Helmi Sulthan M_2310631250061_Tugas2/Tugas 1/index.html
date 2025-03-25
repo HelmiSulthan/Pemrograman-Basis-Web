@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="judul center">Pendaftaran Mahasiswa Baru</h1>
+
+    <form>
+        <label for="NPM">NPM (NOMOR POKOK MAHASISWA)</label> <br>
+        <input type="number" id="npm" class="inputan"> <br><br>
+
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" name="nama" id="namaMhs" class="inputan"><br><br>
+
+        <label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat" class="inputan"></textarea><br><br>
+
+        <label for="jenis-kelamin">Jenis Kelamin</label><br>
+        <input type="radio" name="jekel" id="perempuan" value="perempuan"> Perempuan <br>
+        <input type="radio" name="jekel" id="laki-laki" value="laki-laki"> Laki-laki <br><br>
+
+        <label for="prodi">Program Study</label><br>
+        <select name="jurusan" id="jurusan" class="inputan">
+            <option value="informatika">Informatika</option>
+            <option value="sistem-informasi">Sistem Informasi</option>
+        </select><br><br>
+
+        <button id="tambah" class="center">Tambah</button>
+    </form>
+</body>
+</html>

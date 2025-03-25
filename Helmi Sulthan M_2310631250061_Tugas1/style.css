@@ -1,0 +1,26 @@
+body{
+    padding-inline: 400px;
+    font-family: "Poppins", serif;
+
+}
+
+.category, .judul, .helmi{
+    text-align: center;
+}
+
+.helmi{
+    margin-top: -1;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p{
+    color: rgb(43, 45, 47);
+}
+
+#pendahuluan, #keunggulan, #sejarah, #kesimpulan{
+    font-size: 25px;
+}
